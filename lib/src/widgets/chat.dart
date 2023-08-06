@@ -218,7 +218,7 @@ class Chat extends StatefulWidget {
   final List<types.Message> messages;
 
   /// See [Message.nameBuilder].
-  final Widget Function(types.User)? nameBuilder;
+  final Widget Function(types.Message)? nameBuilder;
 
   /// See [Input.onAttachmentPressed].
   final VoidCallback? onAttachmentPressed;
